@@ -1,0 +1,9 @@
+xSize, ySize,maxBullet
+xPos, yPos
+ansXpos, ansYpos
+Star1Max, Star1Least	(star 3)
+Star2	, Star2		(star 2)
+Star3	, Star3		(star 1)
+AnsColor ...
+TileColor ...
+itemAmount, itemPlaceNum

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="States\GameLevel">
+      <UniqueIdentifier>{5bebd106-826e-47ad-9d91-1dafa810288c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\GameLevel\GameLevel2">
+      <UniqueIdentifier>{57a57545-9716-4d58-b1f8-a01efa575167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\ObjectManager">
+      <UniqueIdentifier>{6f501462-7008-414d-803a-85b53ba9c735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\GameLevelSelect">
+      <UniqueIdentifier>{e01d60c5-7a11-48c5-93d2-4e480a5cbe9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Sound">
+      <UniqueIdentifier>{62581982-1a28-4534-aede-a6aa4c767694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\HUD">
+      <UniqueIdentifier>{e145fc47-4e7c-4f4c-a281-d6af87d663e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\MainMenu">
+      <UniqueIdentifier>{183ed88d-4571-4f4a-a0f9-460bbd9d8d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\SplashState">
+      <UniqueIdentifier>{d3d2ea00-df3a-4da4-b8ac-bfbea6c68997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\StarSystem">
+      <UniqueIdentifier>{5a9abee6-ce7f-4106-a4ad-28f03ab45430}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\DemoStates.h" />
+    <ClInclude Include="Source\GameTypes.h" />
+    <ClInclude Include="Source\DigipenLogo.h">
+      <Filter>States\SplashState</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameLevel2.h">
+      <Filter>States\GameLevel\GameLevel2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OBJ_M.h">
+      <Filter>States\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameLevelSelect.h">
+      <Filter>States\GameLevelSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound.h">
+      <Filter>States\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WinHud.h">
+      <Filter>States\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SetHud.h">
+      <Filter>States\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FMOD.h">
+      <Filter>States\SplashState</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Star.h">
+      <Filter>States\StarSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoseHud.h">
+      <Filter>States\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenu.h">
+      <Filter>States\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Credit.h">
+      <Filter>States\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ShowLevel.h">
+      <Filter>States\HUD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DigipenLogo.cpp">
+      <Filter>States\SplashState</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameLevel2.cpp">
+      <Filter>States\GameLevel\GameLevel2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OBJ_M.cpp">
+      <Filter>States\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameLevelSelect.cpp">
+      <Filter>States\GameLevelSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinHud.cpp">
+      <Filter>States\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SetHud.cpp">
+      <Filter>States\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FMOD.cpp">
+      <Filter>States\SplashState</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Star.cpp">
+      <Filter>States\StarSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoseHud.cpp">
+      <Filter>States\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenu.cpp">
+      <Filter>States\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShowLevel.cpp">
+      <Filter>States\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Credit.cpp">
+      <Filter>States\MainMenu</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
